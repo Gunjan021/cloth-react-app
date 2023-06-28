@@ -1,3 +1,13 @@
+# Clothing Web Design
+
+## Technology Used
+- React JS
+- Tailwind Css
+
+![image](https://github.com/Gunjan021/cloth-react-app/assets/76468176/e00b7f80-c9d3-4f51-9ec6-5e16bc005aaf)
+
+![image](https://github.com/Gunjan021/cloth-react-app/assets/76468176/fa66554e-19b9-4c77-b32e-445407c2d4d0)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
