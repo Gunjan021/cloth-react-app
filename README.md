@@ -8,6 +8,10 @@
 
 ![image](https://github.com/Gunjan021/cloth-react-app/assets/76468176/fa66554e-19b9-4c77-b32e-445407c2d4d0)
 
+![image](https://github.com/Gunjan021/cloth-react-app/assets/76468176/ef747a0a-50bd-41db-bd2e-f98785a8ddf8)
+
+![image](https://github.com/Gunjan021/cloth-react-app/assets/76468176/20981b1b-83de-47a3-86ef-6430302226cb)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
