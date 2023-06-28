@@ -8,7 +8,7 @@ export default function Navigation() {
 
   return (
     <div className="sticky top-0">
-      <nav className="flex flex-row bg-first-color md:rounded-lg text-white justify-between items-center">
+      <nav className="flex outline-double flex-row bg-first-color md:rounded-lg text-white justify-between items-center">
         <div className="flex flex-row sm:my-2 justify-center items-center">
           <img
             className="hover:rounded-full hover:bg-[#8a8176] relative ml-3 p-2 h-10 lg:hidden"
