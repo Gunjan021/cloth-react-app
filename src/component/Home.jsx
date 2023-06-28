@@ -1,18 +1,40 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 function Home() {
   return (
     <div>
-      <div className="mt-0 md:mt-10 px-5 py-2 md:p-10 flex flex-col lg:flex-row items-start justify-around">
-        <div className="rounded-full overflow-hidden">
-          <img
-            className="md:h-96 xl:h-full"
-            src="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt=""
-          />
+      <div className="px-5 py-2 md:p-10 grid xl:grid-cols-2 grid-rows-2 place-items-center">
+        <div className="rounded-3xl overflow-hidden">
+          <Carousel
+            className="rounded-xl"
+            infiniteLoop={true}
+            autoPlay={true}
+            showArrows={true}
+            interval={2000}
+            showStatus={false}
+            showThumbs={false}
+            stopOnHover={false}
+          >
+            <img
+              src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+              alt="image 1"
+              className="h-full w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+              alt="image 2"
+              className="h-full w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+              alt="image 3"
+              className="h-full w-full object-cover"
+            />
+          </Carousel>
         </div>
-
-        <div className="flex flex-col justify-center items-start">
+        <div className="flex md:mt-20 outline xl:outline-offset-[6rem] outline-offset-[2rem] outline-white rounded-lg flex-col justify-center items-start">
           <div className="text-stone-600 font-serif text-7xl font-black">
             <p>Bulding</p>
             <p>a better you</p>

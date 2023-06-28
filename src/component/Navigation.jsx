@@ -7,8 +7,8 @@ export default function Navigation() {
   const [search, setSearch] = useState(false);
 
   return (
-    <div className="sticky top-0">
-      <nav className="flex outline-double flex-row bg-first-color md:rounded-lg text-white justify-between items-center">
+    <div className="sticky z-50 top-0">
+      <nav className="flex flex-row bg-first-color md:rounded-lg text-white justify-between items-center">
         <div className="flex flex-row sm:my-2 justify-center items-center">
           <img
             className="hover:rounded-full hover:bg-[#8a8176] relative ml-3 p-2 h-10 lg:hidden"
@@ -39,13 +39,13 @@ export default function Navigation() {
                 women ? "block" : "hidden"
               }`}
             >
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 Kurta Kurtis
               </li>
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 Sarees
               </li>
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 Lehengas
               </li>
             </ul>
@@ -62,13 +62,13 @@ export default function Navigation() {
                 men ? "block" : "hidden"
               }`}
             >
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 T-Shirts
               </li>
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 Jeans
               </li>
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 Shorts
               </li>
             </ul>
@@ -128,13 +128,13 @@ export default function Navigation() {
                 menu ? "block" : "hidden"
               }`}
             >
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 Profile
               </li>
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 Account
               </li>
-              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-slate-800">
+              <li className="flex w-full items-center px-3 py-2 text-sm rounded-xl hover:bg-gray-100 hover:font-semibold hover:text-gray-800">
                 Log Out
               </li>
             </ul>
